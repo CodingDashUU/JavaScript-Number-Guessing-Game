@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="numberstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+</head>
+<body>
+    <div id="guessbox">
+        <p id="message02">Computer has chosen a number from 1 to 100, guess it in:</p>
+        <p id="guesses"></p>
+        <input type="number" id="guess" min="1",max="100" required> <br> <br>
+        <button id="guessbtn">Guess</button> <br> <br>
+        <button id="resetbtn">Reset</button>
+
+        <p id="wins">Wins: 0</p>
+        <p id="loses">Loses: 0</p>
+        <p id="message"></p>
+          <h1>Guesses:</h1>
+        <ol id="guesslist">
+            
+        </ol>
+    </div>
+
+    <script src = "guessingLogic.js"></script>
+</body>
+</html>
